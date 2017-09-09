@@ -1,35 +1,40 @@
 
 
 body{
-  
-background-image: url("http://i183.photobucket.com/albums/x169/Misspell/Black%20Background%20Hole%202%20-%202560x1600%20by%20Freeman_zpsic5rqgva.jpg");
+  background-image: url("https://vignette4.wikia.nocookie.net/joke-battles/images/5/5a/Black.jpg/revision/latest?cb=20161223050425");
 }
 
 .nav-tabs{
-  
-  text-align:center;
+  background: url("https://vignette4.wikia.nocookie.net/joke-battles/images/5/5a/Black.jpg/revision/latest?cb=20161223050425") no-repeat left center;
+  text-align: center;
   position: fixed; 
-  background-color: #161616;
+
+  display: flex;
+
 				letter-spacing: 0.06em;
 				text-decoration: none;
 				text-transform: uppercase;
 				font-size: 1.1em;
 				outline: 0;
+
 				color: #FFF;
 				
 }
 .nav-tabs li{
-  
+    
+  display: flex;
   display: inline-block;
   text-align: center;
 }
 
 
-.typewriter h1 {
-  float: left;
-  padding-top: 1em;
-  position: absolute;
-  left: 4.3em;
+.jumbotron h2 {
+
+/*	font-weight: 300;*/
+/*	line-height: 1.75em;*/
+ /* padding-top: 1em;*/
+   /*position: absolute;*/
+  left: 10em; 
   color: White;
   font-size: 30px;
   text-transform: uppercase;
@@ -42,54 +47,30 @@ background-image: url("http://i183.photobucket.com/albums/x169/Misspell/Black%20
   animation: 
     typing 5.5s steps(30) 1s 1 normal both,
     blink-caret .5s step-end infinite;
+
 }
 
 /* The typing effect */
 @keyframes typing {
   from { width: 0% }
-  to { width: 40% }
+  to { width: 100% }
 }
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: white }
+  100% { border-color: white }
 }
 
-.panel{
-  
-  background: #161616;
-}
-.panel-body li{
-  
-  font-family: 'Roboto', sans-serif;
-	font-size: 11pt;
-	font-weight: 300;
-	line-height: 1.75em;
-	color: #777;
-}
 
 .jumbotron {
   padding-bottom: 10em;
-  background-color: #161616;
-/*  background-image: url("https://www.w3schools.com/css/trolltunga.jpg"); */
+ background-image: url("https://vignette4.wikia.nocookie.net/joke-battles/images/5/5a/Black.jpg/revision/latest?cb=20161223050425");
 
 	border-bottom:4px solid #337AB8;
+
 }
 
-/*  can probably delete this*/
 
-.jumbotron p {
-  color: White;
-  font-size: 15px;
-  letter-spacing: 0.06em;
-  font-family: Raleway, Georgia, serif;
-   float: left;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-}
 
 	.jumbotron text-center figure {
 	  
@@ -101,8 +82,8 @@ background-image: url("http://i183.photobucket.com/albums/x169/Misspell/Black%20
 	
 	.jumbotron figure img {
 	  
-    left: -20em;
-	  float: right;
+    		left: -20em;
+		float: right;
 		height: 120px;
 		border-radius: 75px;
 		position: relative;
