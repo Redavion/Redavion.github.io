@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
+ 	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Alison Y. Chen</title>
 
  	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" >
@@ -131,6 +133,10 @@
 						<li>Designed a personal website in HTML/CSS to display my artwork </li>
 					
 						<p>
+							</br>
+							</br>
+							</br>
+							</br>
 			  </div>
 				 
      
@@ -149,10 +155,28 @@
     	  <div class="tuyin first">	
     	  <br/>
 			<span class="title">About me</span>
-			 <div class="plan-name"></div>
+			 <div class="plan-name">Get to know me</div>
 			  <div class="text">
 				
-				  <p>I'm a computer science art major who loves rock climbing, drawing. and learning new things. I taught myself HTML/CSS/Javascript, Mongodb as well as SQL.</p>
+				  <li>I'm a computer science and art double major who loves rock climbing, drawing, pingpong and learning new things.  </li>
+
+
+				  	 <li>I self taught myself how to draw and create graphics using Adobe Photoshop and Illustrator.  </li>
+
+				  	<li>I taught myself HTML/CSS/Javascript/node.js, Mongodb as well as SQL.  </li>
+
+				  	<li>I have a maltese puppy named Ace.</li>
+
+				  	<li>My favorite video game of all time is Bioshock. I also enjoyed Assassin's Creed and To the Moon.</li>
+				 </br>
+				 </br>
+				 </br>
+				 </br>
+				 </br>
+				 </br>
+				 </br>
+				 </br>
+				 </br>
 					
 			  </div>
 				 
@@ -168,41 +192,74 @@
 
 
 			<div id = "contactme" class="tab-pane fade">
-				<div class="panel panel-primary">
-					<div class="panel-heading">Contact information</div>
-					<div class="panel-body">
-            <form action="process_form.php" method="post">
-   <div class="col-md-5">
-    <div class="form-area">  
-        <form role="form">
-        <br style="clear:both">
-                    <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
-    				<div class="form-group">
-						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
-					</div>
-					<div class="form-group">
-						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-					</div>
-                    <div class="form-group">
-                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
-                        <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
+			
+
+
+        <div class="text-center">
+            <div class="container">
+
+                <div class="row animatedParent">
+                    <div class="col-xs-6 col-sm-4 col-md-4">
+                        <div class="animated rotateInDownLeft">
+                            <div class="service-box">
+                                <div class="service-icon">
+                                    <span class="fa fa-github fa-2x"></span>
+                                </div>
+                                <div class="service-desc">
+                                    <h5>Github</h5>
+                                    <div class="divider-header"></div>
+                                    <p>
+                                        https://github.com/redavion
+                                    </p>
+                                    <a href="https://github.com/redavion" class="btn btn-skin" target="_blank" style="color: white">Go</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="col-xs-6 col-sm-4 col-md-4">
+                        <div class="animated rotateInDownLeft slow">
+                            <div class="service-box">
+                                <div class="service-icon">
+                                    <span class="fa fa-envelope-o fa-2x"></span>
+                                </div>
+                                <div class="service-desc">
+                                    <h5>Email</h5>
+                                    <div class="divider-header"></div>
+                                    <p>
+                                        <a href="mailto:alison.y.chen@vanderbilt.edu" style="color: black" > alison.y.chen@vanderbilt.edu</a>
+                                    </p>
+                                    <a href="mailto:alison.y.chen@vanderbilt.edu" class="btn btn-skin" style="color: white">Go</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-4">
+                        <div class="animated rotateInDownLeft slower">
+                            <div class="service-box">
+                                <div class="service-icon">
+                                    <span class="fa fa-mobile fa-2x"></span>
+                                </div>
+                                <div class="service-desc">
+                                    <h5>Phone</h5>
+                                    <div class="divider-header"></div>
+                                    <p>
+                                        (856)298-7059
+                                    </p>
+                                    <a href="tel:8562987059" class="btn btn-skin" style="color: white">Go</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </br> </br> </br> </br> </br> </br>
+            </div>
+        </div>
+
+
+          
             
-        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
-        </form>
-    </div>
-</div>
-            </form>
-            
-        
-					</div>
-				</div>
 			</div> <!-- This ends contactme -->
 		
 		</div>    	<!-- This ends tab content -->
@@ -233,15 +290,23 @@
    		 	
   $('#github, #linkedin, #facebook').addClass('outcolor');
   $('#github, #linkedin, #facebook').hover(
-    function(){ //on hover
-      
-      $(this).addClass('incolor');
-  },
-   function(){ //offhover
-     $(this).removeClass('incolor');
-   }
-);
-
+	    function(){ //on hover
+	      
+	      $(this).addClass('incolor');
+	 	},
+	   function(){ //offhover
+	     $(this).removeClass('incolor');
+	   }
+	);
+   $('.service-box').hover(
+	    function(){ //on hover
+	      
+	      $(this).css("opacity", "1");
+	 	},
+	   function(){ //offhover
+	      $(this).css("opacity", "0.2");
+	   }
+	);
 	});
 </script>
 	</body>

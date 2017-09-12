@@ -1,11 +1,13 @@
 
 
 body{
-  background-image: url("https://vignette4.wikia.nocookie.net/joke-battles/images/5/5a/Black.jpg/revision/latest?cb=20161223050425");
+  background: url("http://i183.photobucket.com/albums/x169/Misspell/black_zpsckk3mewf.png") ;
+height: 100%;
+ 
 }
 
 .nav-tabs{
-  background-image: url("https://vignette4.wikia.nocookie.net/joke-battles/images/5/5a/Black.jpg/revision/latest?cb=20161223050425") ;
+  background-image: url("http://i183.photobucket.com/albums/x169/Misspell/black_zpsckk3mewf.png") ;
   display: flex;
   text-align: center;
   position: fixed; 
@@ -29,7 +31,7 @@ body{
 .typewriter h2 {
 
 /*	font-weight: 300;*/
-/*	line-height: 1.75em;*/
+	line-height: 1.75em;
 margin-left: 100px; 
  padding-top: 1em; 
  float: left;
@@ -62,7 +64,7 @@ margin-left: 100px;
 
 
 .jumbotron {
- background-image: url("https://vignette4.wikia.nocookie.net/joke-battles/images/5/5a/Black.jpg/revision/latest?cb=20161223050425");
+ background-image: url("http://i183.photobucket.com/albums/x169/Misspell/black_zpsckk3mewf.png");
 
 	border-bottom:4px solid #337AB8;
 
@@ -156,3 +158,40 @@ margin-left: 100px;
 	font-size: 16px;
 	text-align: justify;
 	}
+
+.form-group {
+  margin-bottom: 20px;
+}
+/* ===========================
+--- Services
+============================ */
+.service-box {
+	background: #337AB8;
+	border-bottom: 2px solid #f7f7f7;
+	padding: 40px 20px;
+	opacity: 0.2;
+	border: 3px solid #f7f7f7;
+}
+
+.service-box:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+	margin-top: -20px;
+
+}
+
+.service-icon {
+	margin-bottom: 20px;
+
+}
+
+.service-desc h5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 10px;}
+.service-desc .divider-header {
+	margin-bottom: 30px;
+}
