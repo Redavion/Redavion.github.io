@@ -28,13 +28,17 @@
   <li id= "contactmeid"><a href="#contactme">contact me</a></li>
 </ul>
   </div>
-		<div class="jumbotron text-center">
+		<div class="jumbotron">
+			 <div class="row">
+                <div class="col-md-8">
 		  <figure>
-		    <div class="typewriter"><h2 data-text-resume= "Hello, I'm Alison Chen!" data-text-about="Get to know me better" data-text-contact="How to reach out to me">Hello, I'm Alison Chen!</h1></div>
+		    <div class="typewriter"><h2 data-text-resume= "Hello, I'm Alison Chen!" data-text-about="Get to know me better" data-text-contact="How to reach out to me"> Hello, I'm Alison Chen!</h1></div>
 					<img src="https://scontent-atl3-1.xx.fbcdn.net/v/t31.0-8/13731831_1633023457012715_7567047219334795392_o.jpg?oh=909e064ed960886184ace67464004f11&oe=5A552C01" alt="Picture of Alison">
 				</figure>
 		
-		
+	
+		</div>
+		</div>
 		
 	
 		</div>
@@ -203,23 +207,24 @@
 		
 		</div>    	<!-- This ends tab content -->
 	<script>
+
 	$(document).ready(function(){
     	$(".nav-tabs a").click(function(){
     	    $(this).tab('show');
-    	     $("#resumeid").click(function(){
-    	        var target = $('.typewriter h1');
-    	        $('.typewriter h1').text(target.data("text-resume"));
+    	    $("#resumeid").click(function(){
+    	        var target = $('.typewriter h2');
+    	        $('.typewriter h2').text(target.data("text-resume"));
     //	          $('.typewriter h1').addClass('typewriter h1');
     	        
    		    });
     	    $("#aboutmeid").click(function(){
-    	        var target = $('.typewriter h1');
-    	        $('.typewriter h1').text(target.data("text-about"));
+    	        var target = $('.typewriter h2');
+    	        $('.typewriter h2').text(target.data("text-about"));
     	        
-              $('.typewriter h1').css('float','left');
+        //      $('.typewriter h1').css('float','left');
    		    });
    		     $("#contactmeid").click(function(){
-    	        var target = $('.typewriter h1');
+    	        var target = $('.typewriter h2');
     	        target.text(target.data("text-contact"));
     	//        $('.typewriter h1').addClass('typewriter test');
    		    });
