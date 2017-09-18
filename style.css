@@ -1,13 +1,13 @@
 
 
 body{
-  background: url("http://i183.photobucket.com/albums/x169/Misspell/black_zpsckk3mewf.png") ;
+  background: url("https://preview.ibb.co/huTAg5/black.png") ;
 height: 100%;
  
 }
 
 .nav-tabs{
-  background-image: url("http://i183.photobucket.com/albums/x169/Misspell/black_zpsckk3mewf.png") ;
+  background-image: url("https://preview.ibb.co/huTAg5/black.png") ;
   text-align: center;
   position: fixed; 
 
@@ -32,7 +32,7 @@ height: 100%;
 	font-weight: 300;
 	height:20%;
 	line-height: 1.75em;
-margin-left: 100px; 
+margin-left: 134px; 
  padding-top: 1em; 
  float: left;
   left: 40.3em;
@@ -54,7 +54,7 @@ margin-left: 100px;
 /* The typing effect */
 @keyframes typing {
   from { width: 0% }
-  to { width: 70% }
+  to { width: 64% }
 }
 /* The typewriter cursor effect */
 @keyframes blink-caret {
@@ -64,7 +64,7 @@ margin-left: 100px;
 
 
 .jumbotron {
- background-image: url("http://i183.photobucket.com/albums/x169/Misspell/black_zpsckk3mewf.png");
+ background-image: url("https://preview.ibb.co/huTAg5/black.png");
 
 	border-bottom:4px solid #337AB8;
 
@@ -167,7 +167,6 @@ margin-left: 100px;
 .service-box {
 	background: #337AB8;
 	padding: 60px 40px;
-	opacity: 0.2;
 	border: 3px solid #f7f7f7;
 }
 

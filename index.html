@@ -5,7 +5,7 @@
  	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Alison Y. Chen</title>
-
+	<link href=“css/animations.css" rel="stylesheet"  type="text/css" />
  	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" >
  	<link href="./style.css" rel="stylesheet" type="text/css"/>
  
@@ -15,6 +15,9 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<script src='js/css3-animate-it.js'></script>
 
 	</head>
 
@@ -64,13 +67,13 @@
 			  </div>
 				  <div class="icons">
       <div id="github">
-			<a href="https://github.com/Redavion" target="_blank"><img src="http://i183.photobucket.com/albums/x169/Misspell/git_zpsoje1kqfz.png" class="img-thumbnail" alt="Github" width="35" height="35"></a>
+			<a href="https://github.com/Redavion" target="_blank"><img src="https://image.ibb.co/dsDRM5/git.png" class="img-thumbnail" alt="Github" width="35" height="35"></a>
       </div>
       <div id="linkedin">
 			<a href="http://i183.photobucket.com/albums/x169/Misspell/if_linked_in_104828%201_zpssxczmz2e.png" target="_blank"><img src="https://lh3.googleusercontent.com/00APBMVQh3yraN704gKCeM63KzeQ-zHUi5wK6E9TjRQ26McyqYBt-zy__4i8GXDAfeys=w300" class="img-thumbnail" alt="Linkedin" width="35" height="35"></a>
      </div>
      <div id="facebook">
-			<a href="https://www.facebook.com/alison.chen.9638" target="_blank"><img src="http://i183.photobucket.com/albums/x169/Misspell/if_square-facebook_317727_zpsszrdwp0e.png" class="img-thumbnail" alt="Linkedin" width="35" height="35"></a>
+			<a href="https://www.facebook.com/alison.chen.9638" target="_blank"><img src="https://image.ibb.co/bT78ZQ/if_square_facebook_317727.png" class="img-thumbnail" alt="Linkedin" width="35" height="35"></a>
      </div>
      
 		</div>
@@ -298,6 +301,9 @@
 	     $(this).removeClass('incolor');
 	   }
 	);
+   $('.service-box').css("border", "1");
+
+   $('.service-box').css("opacity", "0.3");
    $('.service-box').hover(
 	    function(){ //on hover
 	      
@@ -309,5 +315,7 @@
 	);
 	});
 </script>
+
+
 	</body>
 </html>
